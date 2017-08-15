@@ -5,5 +5,5 @@ import './footer.scss';
 
 export const footer = angular
   .module('common.footer', [])
-  .component('footer', footer)
+  .component('footer', footerComponent)
   .name;

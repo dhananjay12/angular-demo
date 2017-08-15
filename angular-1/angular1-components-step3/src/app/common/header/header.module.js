@@ -5,5 +5,5 @@ import './header.scss';
 
 export const header = angular
   .module('common.header', [])
-  .component('header', header)
+  .component('header', headerComponent)
   .name;

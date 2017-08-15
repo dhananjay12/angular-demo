@@ -1,7 +1,7 @@
-import template from './app.component.html'
+import appHtml from './app.component.html'
 
 export const appComponent = {
-  template:template,
+  template:appHtml,
   controller: class AppComponent {
     constructor($state) {
       'ngInject';

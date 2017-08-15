@@ -1,6 +1,6 @@
-import template from './root.html';
+import rootHtml from './root.html';
 
 
 export const rootComponent = {
-  template:template
+  template:rootHtml
 }

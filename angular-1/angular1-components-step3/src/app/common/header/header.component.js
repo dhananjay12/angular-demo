@@ -1,4 +1,4 @@
-import template from './header.html';
+import headerHtml from './header.html';
 
 class HeaderComponentController{
 
@@ -9,7 +9,7 @@ class HeaderComponentController{
 }
 
 export const headerComponent = {
-  template:template,
+  template:headerHtml,
   controller:HeaderComponentController,
   controllerAs: 'ctrl'
 }

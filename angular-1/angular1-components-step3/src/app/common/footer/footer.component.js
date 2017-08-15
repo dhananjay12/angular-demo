@@ -1,4 +1,4 @@
-import template from './footer.html';
+import footerHtml from './footer.html';
 
 class FooterComponentController{
 
@@ -9,7 +9,8 @@ class FooterComponentController{
 }
 
 export const footerComponent = {
-  template:template,
+  template:footerHtml,
   controller: FooterComponentController,
-  controllerAs: 'ctrl'
+  controllerAs: 'ctrl',
+  transclude:true
 }
